@@ -6,7 +6,6 @@ function getResult() {
   var xval = $('#xval').val(); 
   for (let i = 1; i <= xval; i++) {
     $("#hasil").append('<li>'+divcurrent(i)+'</li>');
-    console.log(i);
   }
 }
 
