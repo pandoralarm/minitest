@@ -1,0 +1,45 @@
+<html>
+
+  <head>
+    <title>Minitest</title>
+  </head>
+  <body>
+    <!-- section soal -->
+    <section id="soal">
+      <h1>SOAL</h1>
+      <p>
+        Buat sebuah fungsi yang melakukan looping dari 1 sampai x dengan peraturan khusus: <br>
+        <ol>
+          <li>Untuk setiap angka yang bisa dibagi dengan 3, jangan print angka nya, tapi print "Tiga".</li>
+          <li>Kalau bisa dibagi dengan 5, print "Lima".</li>
+          <li>Kalau bisa dibagi oleh 3 dan 5, print "TigaLima".</li>
+          <li>Jika tidak bisa dibagi dengan 3 atau 5 maka print angka tersebut,</li>
+        </ol>
+      </p>
+    </section>
+
+    <!-- section program interface -->
+    <section id="program">
+      <label for="xval">Masukkan X:</label><br>
+      <input type="number" id="xval" name="xval"><br>
+      <button id="run" value="RUN" onclick="getResult()">RUN</button>
+    </section>
+
+    <!-- section result -->
+    <section id="result">
+      <h2>
+        Jawaban :
+      </h2>
+
+      <ol id="hasil" style="list-style-type: none; padding-left: 0;">
+      </ol>
+    </section>
+
+
+  
+
+
+   <script src="jquery.js"></script>
+   <script src="main.js"></script>
+  </body>
+</html>
